@@ -9,3 +9,7 @@ services:
     class: NewsletterDefinitionBundle\SqlRenderer\Renderer
     arguments:
       - '@doctrine.dbal.default_connection'
+  pimcore.document.newsletter.factory.newsletter_definition:
+    class: Pimcore\Document\Newsletter\DefaultAddressSourceAdapterFactory
+    arguments:
+      - 'NewsletterDefinitionBundle\AddressSourceAdapater\DefinitionAddressSourceAdapter'

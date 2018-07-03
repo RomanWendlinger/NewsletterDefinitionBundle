@@ -1,0 +1,4 @@
+pimcore:
+  newsletter:
+    source_adapters:
+      newsletterDefinition: pimcore.document.newsletter.factory.newsletter_definition
