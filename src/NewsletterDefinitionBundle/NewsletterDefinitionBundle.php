@@ -23,7 +23,7 @@ class NewsletterDefinitionBundle extends AbstractPimcoreBundle
     {
         parent::boot();
 
-        class_alias(DefinitionAddressSourceAdapter::class, '\\Pimcore\\Document\\Newsletter\\AddressSourceAdapter\\NewsletterDefinition');
+        //class_alias(DefinitionAddressSourceAdapter::class, '\\Pimcore\\Document\\Newsletter\\AddressSourceAdapter\\NewsletterDefinition');
     }
 
 
